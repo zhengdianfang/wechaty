@@ -10,6 +10,7 @@ declare module 'json-rpc-peer' {
 
   export * from 'json-rpc-protocol'
 
+  // @ts-ignore
   declare module 'json-rpc-peer' {
     export class Peer extends EventEmitter implements NodeJS.WritableStream {
 
@@ -59,6 +60,7 @@ declare module 'json-rpc-peer' {
 
     }
 
+    // @ts-ignore
     export default Peer
   }
 
